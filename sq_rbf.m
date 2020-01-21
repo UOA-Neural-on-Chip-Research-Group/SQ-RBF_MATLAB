@@ -26,12 +26,6 @@ function a = sq_rbf(n,varargin)
 %
 %	See also TRIBAS.
 
-% Mark Beale, 12-15-93
-% Revised 11-31-97, MB
-% Copyright 1992-2012 The MathWorks, Inc.
-
-% NNET 7.0 Compatibility
-% WARNING - This functionality may be removed in future versions
 if ischar(n)
   a = nnet7.transfer_fcn(mfilename,n,varargin{:});
   return
