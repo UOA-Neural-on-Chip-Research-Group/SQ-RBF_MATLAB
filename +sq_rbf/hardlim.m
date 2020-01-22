@@ -24,12 +24,7 @@ function a = hardlim(n,varargin)
 %
 %   net.<a href="matlab:doc nnproperty.net_layers">layers</a>{i}.<a href="matlab:doc nnproperty.layer_transferFcn">transferFcn</a> = '<a href="matlab:doc hardlim">hardlim</a>';
 %
-%	See also HARDLIMS.
 
-% Mark Beale, 1-31-92
-% Revised 12-15-93, MB
-% Revised 11-31-97, MB
-% Copyright 1992-2012 The MathWorks, Inc.
 
 % NNET 7.0 Compatibility
 % WARNING - This functionality may be removed in future versions
